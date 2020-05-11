@@ -1,0 +1,68 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 26px;
+  margin: auto;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  text-align: center;
+  width: 450px;
+  height: auto;
+  padding:25px;
+  box-shadow: 2px 2px 4px blue;
+}
+p {
+  font-family: Helvetica, sans-serif;
+  font-size:14px;
+  margin: auto;
+  text-align: center;
+  width: 450px;
+  height: auto;
+  padding:10px;
+}
+.answer {
+  font-family: sans-serif, courier;
+  border: 1px solid rgb(200,200,200);
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px grey;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 450px;
+}
+.question {
+  font-family: sans-serif, courier;
+  border: 1px solid rgb(200,200,200);
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px grey;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  width: 450px;
+
+}
+.author {
+  font-style: italic;
+}
+
+#another {
+  background-color: blue;
+  border-radius: 30px;
+  text-decoration: none;
+  width: 450px;
+  height: 30px;
+  text-align:center;
+}
+#another a {
+  margin: auto;
+  color: white;
+  text-decoration: none;
+}
